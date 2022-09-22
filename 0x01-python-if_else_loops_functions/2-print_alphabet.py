@@ -3,5 +3,6 @@ num = 97
 count = 0
 
 while count < 26:
-    print(chr(num + count), end='')
+    alphabet = chr(num + count)
+    print("{}".format(alphabet), end='')
     count += 1

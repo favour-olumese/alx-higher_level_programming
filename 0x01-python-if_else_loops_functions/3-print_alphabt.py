@@ -6,5 +6,5 @@ while count < 26:
     alphabet = chr(num + count)
 
     if alphabet not in ['q', 'e']:
-        print(alphabet, end='')
+        print("{}".format(alphabet), end='')
     count += 1
